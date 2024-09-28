@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0 16px;
+}
+
+html {
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 62.5%;
+}
+
+.header {
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.container-menu {
+    margin-top: 32px;
+}
+
+.container-item {
+    border: 2px solid #000;
+    background-color: rgba(153, 153, 153, .6);
+    margin-top: 8px;
+}
+
+.chicken .item-heading {
+    background-color: #d59898;
+}
+
+.beef .item-heading {
+    background-color: #c14543;
+    color: #fff;
+}
+
+.sushi .item-heading {
+    background-color: #e5d198;
+}
+
+.item-heading {
+    width: 150px;
+    padding: 8px 8px;
+    display: flex;
+    margin-left: auto;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.item-heading-p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+.item-body {
+    color: #000;
+    font-size: 1.2rem;
+    padding: 8px;
+}
